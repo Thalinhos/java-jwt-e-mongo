@@ -1,0 +1,55 @@
+# Example GET request
+GET http://localhost:3030/
+Accept: application/json
+
+###
+
+# Example POST request
+GET http://localhost:3030/users
+Content-Type: application/json
+
+###
+GET http://localhost:3030/users/681d4f5c9a0498401b38c914
+Content-Type: application/json
+
+###
+
+POST http://localhost:3030/users 
+Content-Type: application/json
+
+{
+  "userName": "John Doe2",
+  "email": "email.com"
+}
+
+###
+
+POST http://localhost:3030/userJson
+Content-Type: application/json
+
+{
+  "userName": "John Doe2",
+  "email": "email.com",
+  "age": 30
+}
+
+###
+GET http://localhost:3030/userJson/681d4f5c9a0498401b38c914
+Content-Type: application/json
+
+###
+POST http://localhost:3030/login
+Content-Type: application/json
+
+{
+  "username": "thalisson",
+  "password": "123456"
+}
+
+###
+GET http://localhost:3030/verifyToken
+Content-Type: application/json
+
+{
+  "token": "eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJTdG9ybXBhdGgiLCJzdWIiOiJ0aGFsaXNzb24iLCJuYW1lIjoidGhhbGlzc29uIiwic2NvcGUiOiJhZG1pbnMiLCJpYXQiOjE3NDcwMTkwOTAsImV4cCI6MTc0NzAxOTE3MH0.LWThNYhiqYVTnD6z53E0JIQrDGebxGUYZRiyZ4Fe7R4"
+}
