@@ -42,7 +42,7 @@ public class JwtController {
 }
 
 <dependency>
-			<groupId>com.auth0</groupId>
-			<artifactId>java-jwt</artifactId>
-			<version>4.5.0</version>
-		</dependency>
+	<groupId>com.auth0</groupId>
+	<artifactId>java-jwt</artifactId>
+	<version>4.5.0</version>
+</dependency>
